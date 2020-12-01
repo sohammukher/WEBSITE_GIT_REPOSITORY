@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+
+    <!-- including external css here -->
+    <link rel="stylesheet" href="register_page.css">
+</head>
+
+<body>
+
+    <img src="register_intro.jpg" alt="ERROR IMAGE COUND NOT BE LOADED">
+
+    <hr>
+
+
+    <form action="backend.php">
+
+
+
+        <label for="cust_name">Name: </label>
+        <input type="text" name="customer_name" id="cust_name"> <br>
+
+        <label for="cust_id">Email:</label>
+        <input type="text" name="email_id" id="cust_id"> <br>
+
+        <label for="u_name">Username</label>
+        <input type="text" name="username" id="u_name"><br>
+
+        <label for="pass">Password: </label>
+        <input type="text" name="password" id="pass"><br>
+
+        Graduation or Undergraduation
+
+        <!-- IF NAME OF RADIO BUTTONS ARE THE SAME THEN WE CAN SELECT EITHER ONE OF THEM -->
+
+        <input type="radio" name="edu_lvl" id="edu_lvl1">
+        <input type="radio" name="edu_lvl" id="edu_lvl2">
+
+        <br><br>
+        Are you a working professional?<br>
+        <input type="checkbox" name="prof" id="prof1"><br>
+
+
+
+
+        Write About Yourself <br> <br>
+        <textarea name="about_myself" id="mslf1" cols="70" rows="10"></textarea>
+        <br><br>
+
+
+        <!-- DROP DOWN MENU -->
+        Select Your Course Duration:<br>
+       
+        <select name="duration" id="dura1">
+            <option value="ONE" selected>One Year Course</option>
+            <option value="TWO">Two Years Course</option>
+        </select>
+
+
+
+        <input type="submit" value="SUBMIT NOW"> <br>
+        <input type="reset" value="RESET"><br>
+
+
+
+    </form>
+
+    <hr>
+
+
+</body>
+
+</html>
