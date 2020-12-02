@@ -2,10 +2,48 @@
 
 body {
   background-image: url('main_page_background.jpg');
-  background-repeat: no-repeat;
+  background-repeat: no-repeat    !important;
 }
 
+/* element selector we are elelecting whole element p */
+p1 
+{
 
+  color:blue;
+  border-style: double;
+  
+
+}
+
+/* ID selector */
+#service_list 
+{
+
+  color: tomato;
+
+}
+
+/* CLASS selector*/
+
+.listing
+{
+
+  outline-color: yellow;
+  animation-name: initial;
+  animation-play-state: running;
+
+
+
+}
+
+/* GROUPING SELECTOR */
+span,footer
+{
+
+color: rgb(252, 113, 0);
+
+
+}
 
 
 
