@@ -41,10 +41,33 @@ span,footer
 {
 
 color: rgb(252, 113, 0);
+font-family: cursive;
+font-style: italic;
+
 
 
 }
 
+.terms
+{ 
+color: rgb(75, 124, 27);
+font-family: cursive;
+
+border-top: lightseagreen solid 2px;
+border-bottom: lightseagreen solid 2px;
+border-left: lightseagreen solid 2px;
+border-right: lightseagreen solid 2px;
+border-radius: 6px;
+border-spacing: 1vmin;
+background-image: url("TandC.jpg");
+width: 200px;
+height: 30px;
+background-repeat: no-repeat;
+
+
+
+
+}
 
 
 
